@@ -1,0 +1,76 @@
+body {
+    background-color: #033b3f;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    padding: 30px;
+    background-color: #152641;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #28a745;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+/* Welcome message style */
+#welcomeMessage {
+    font-size: 3em; /* Aumenta el tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    margin-top: 50px; /* Añade un margen superior */
+    color: #487df7; /* Color de texto */
+}
+
+
+/* Input style */
+input {
+    padding: 12px;
+    margin-top: 10px;
+    width: 70%;
+    max-width: 350px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 12px 25px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Buttons for navigation */
+.buttons button {
+    margin-top: 20px;
+    background-color: #007BFF;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}

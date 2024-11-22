@@ -1,0 +1,80 @@
+body {
+    background-color: #033b3f;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #FF5733;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Form input styles */
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+button {
+    background-color: #FF5733;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c04c28;
+}
+
+/* Form message style */
+#formMessage {
+    margin-top: 20px;
+    color: #28a745; /* Green for success */
+}
+
+/* Button to clear the form */
+button[type="button"] {
+    background-color: #dc3545;
+}
+
+button[type="button"]:hover {
+    background-color: #c82333;
+}
+
+/* Navigation buttons */
+.buttons button {
+    margin-top: 20px;
+    background-color: #007BFF;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
